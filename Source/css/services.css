@@ -6,6 +6,11 @@ body {
     text-align: center;
 }
 
+textarea {
+  resize: none;
+}
+
+
 .Service__txt {
     margin-top: 60px;
 }
