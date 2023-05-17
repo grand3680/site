@@ -1,11 +1,11 @@
-/* это фон самого скроллбара. */
+/*is the background of the scrollbar itself.. */
 
 body::-webkit-scrollbar {
     width: 20px;
 }
 
 
-/* пустое пространство под индикатором прокрутки */
+/* empty space under the scroll indicator */
 
 body::-webkit-scrollbar-track {
     background-color: white;
@@ -13,7 +13,7 @@ body::-webkit-scrollbar-track {
 }
 
 
-/* индикатор прокрутки, перетаскиваемый элемент */
+/* scroll indicator, draggable item */
 
 body::-webkit-scrollbar-thumb {
     border-radius: 10px;
