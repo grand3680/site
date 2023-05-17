@@ -1,4 +1,4 @@
-/* шапка */
+/* hat */
 
 .header_backround {
     width: auto;
@@ -10,7 +10,7 @@
 }
 
 
-/* шапка навигация */
+/* navigation header */
 
 .header__nav {
     text-align: center;
@@ -20,7 +20,7 @@
 }
 
 
-/* лого */
+/* Logo */
 
 .header__img__logo {
     width: 50px;
@@ -45,7 +45,7 @@
 }
 
 
-/* шапка сылка */
+/* header link */
 
 a {
     text-decoration: none;
@@ -59,7 +59,7 @@ a {
 }
 
 
-/* шапка сылка не обычная */
+/* the header is not the usual */
 
 .header__link__unusual {
     font-size: 20px;
@@ -68,7 +68,7 @@ a {
 }
 
 
-/* шапка кнопка в навигации */
+/* header button in the navigation */
 
 .header__button {
     background-color: Transparent;
@@ -90,7 +90,7 @@ button {
 }
 
 
-/* при наводке на кнопки */
+/* when pointing at buttons */
 
 .header__button__black:hover,
 .header__button__white:hover,
