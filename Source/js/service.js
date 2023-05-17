@@ -1,10 +1,10 @@
-/* стрелы */
+/* arrows */
 let arrow_1 = document.getElementById("arrow_1");
 let arrow_2 = document.getElementById("arrow_2");
 let arrow_3 = document.getElementById("arrow_3");
 let arrow_4 = document.getElementById("arrow_4");
 
-/* текст стрел */
+/* arrow text */
 let text__arrow_1 = document.getElementById("text__arrow_1");
 let text__arrow_2 = document.getElementById("text__arrow_2");
 let text__arrow_3 = document.getElementById("text__arrow_3");
@@ -15,14 +15,14 @@ let arrow_2__img = document.getElementById("arrow_2__img");
 let arrow_3__img = document.getElementById("arrow_3__img");
 let arrow_4__img = document.getElementById("arrow_4__img");
 
-/* флаги */
+/* Flags */
 let flag_1 = 0;
 let flag_2 = 0;
 let flag_3 = 0;
 let flag_4 = 0;
 
 
-/* функции */
+/* functions */
 function text_1() {
     arrow_1.addEventListener("click", function() {
         if (flag_1 == 0) {
@@ -81,7 +81,7 @@ function text_4() {
         }
     });
 }
-/* вызив всех функции */
+/* Calling all functions */
 text_1();
 text_2();
 text_3();
