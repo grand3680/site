@@ -1,4 +1,4 @@
-/* Указываем box sizing */
+/* Specify box sizing */
 
 *,
 *::before,
@@ -7,7 +7,7 @@
 }
 
 
-/* Убираем внутренние отступы */
+/* Removing internal indentations */
 
 ul[class],
 ol[class] {
@@ -15,7 +15,7 @@ ol[class] {
 }
 
 
-/* Убираем внешние отступы */
+/* Removing the outside indentation */
 
 body,
 h1,
@@ -35,7 +35,7 @@ dd {
 }
 
 
-/* Выставляем основные настройки по-умолчанию для body */
+/* Set the basic default settings for body */
 
 body {
     min-height: 100vh;
@@ -45,7 +45,7 @@ body {
 }
 
 
-/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+/* Remove the standard styling for all ul and il that have the class attribute*/
 
 ul[class],
 ol[class] {
@@ -53,14 +53,14 @@ ol[class] {
 }
 
 
-/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+/* Elements a that have no class are reset to default styles */
 
 a:not([class]) {
     text-decoration-skip-ink: auto;
 }
 
 
-/* Упрощаем работу с изображениями */
+/* Making it easier to work with images */
 
 img {
     max-width: 100%;
@@ -68,14 +68,14 @@ img {
 }
 
 
-/* Указываем понятную периодичность в потоке данных у article*/
+/* Specify an understandable periodicity in the data flow*/
 
 article>*+* {
     margin-top: 1em;
 }
 
 
-/* Наследуем шрифты для инпутов и кнопок */
+/* Inherit the fonts for the intents and buttons */
 
 input,
 button,
@@ -85,7 +85,7 @@ select {
 }
 
 
-/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+/* Remove all animations and transitions for people who would rather not use them */
 
 @media (prefers-reduced-motion: reduce) {
     * {
